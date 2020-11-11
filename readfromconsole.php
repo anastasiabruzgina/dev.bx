@@ -1,7 +1,11 @@
 <?php
 
-function readFromConsole($result)
+function readFromConsole($result = '')
 {
+	if ($result == '')
+	{
+		$result = trim(fgets(STDIN));
+	}
 	switch ($result)
 	{
 		case 'true':
@@ -10,11 +14,9 @@ function readFromConsole($result)
 			return false;
 		case '!stop':
 			return null;
-		case '1.3':
-			return 1.3;
-		case '1':
-			return 1;
-		case 'test':
-			return test;
+		case is_numeric($result):
+			return +$result;
+		default:
+			return $result;
 	}
 }

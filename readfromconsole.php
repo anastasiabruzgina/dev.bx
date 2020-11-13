@@ -2,7 +2,7 @@
 
 function readFromConsole($result = '')
 {
-	if ($result == '')
+	if ($result ==='')
 	{
 		$result = trim(fgets(STDIN));
 	}

@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body { margin: 0; }
+
+.section {
+    width: 100%;
+}
+
+.section.section-1 {
+    height: 409px;
+    background: rgba(0, 101, 242, 0.12);
+    border-bottom: 1px solid rgba(37, 124, 244, 0.4);
+}
+
+.section.section-2 {
+    height: 500px;
+}
+
+.section.section-3 {
+    height: 802px;
+}
+
+.container {
+    position: sticky;
+}
+
+.container.container-1_section-1 {
+    padding-top: 30px;
+    width: 540px;
+    left: calc(50% - 540px/2);
+}
+
+.container.container-1_section-2 {
+    width: 445px;
+    height: 300px;
+    padding-top: 100px;
+    left: calc(50% - 445px/2 - 332.5px);
+}
+
+.container.container-1_section-3 {
+    width: 1110px;
+    height: 802px;
+    padding-top: 100px;
+    left: calc(50% - 1110px/2);
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1 {
+    font: bold 40px/48px Helvetica Neue,"Open Sans", sans-serif;
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font: bold 56px/60px Helvetica Neue,"Open Sans", sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font: bold 24px/32px Helvetica Neue,"Open Sans", sans-serif;
+    letter-spacing: -0.1px;
+}
+
+h4 {
+    font: bold 18px/28px Helvetica Neue,"Open Sans", sans-serif;
+    letter-spacing: -0.1px;
+}
+
+p {
+    font: 18px/28px Helvetica Neue,"Open Sans", sans-serif;
+}
+
+p1 {
+    font: 16px/24px Helvetica Neue,"Open Sans", sans-serif;
+}
+
+ul {
+    font: 16px/28px Helvetica Neue,"Open Sans", sans-serif;
+    margin-top: 26px;
+}
+
+li {
+    font: 16px/28px Helvetica Neue,"Open Sans", sans-serif;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+im1 {
+    margin-top: 51px;
+    margin-left: 70px;
+    position: absolute;
+}
+im2 {
+    margin-top: 40px;
+    margin-left: 196.42px;
+    position: absolute;
+}
+im3 {
+    margin-top: 52.62px;
+    left: 274.69px;
+    position: absolute;
+}
+im4 {
+    margin-top: 58.63px;
+    margin-left: 360.37px;
+    position: absolute;
+}
+im5 {
+    position: absolute;
+    left: 560px;
+    top: 100px;
+}

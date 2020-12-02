@@ -93,28 +93,26 @@ li {
     text-align: left;
 }
 
-im1 {
+.image {
+    position: absolute;
+}
+.image.one {
     margin-top: 51px;
     margin-left: 70px;
-    position: absolute;
 }
-im2 {
+.image.two {
     margin-top: 40px;
     margin-left: 196.42px;
-    position: absolute;
 }
-im3 {
+.image.three {
     margin-top: 52.62px;
     left: 274.69px;
-    position: absolute;
 }
-im4 {
+.image.four {
     margin-top: 58.63px;
     margin-left: 360.37px;
-    position: absolute;
 }
-im5 {
-    position: absolute;
+.image.five {
     left: 560px;
     top: 100px;
 }
